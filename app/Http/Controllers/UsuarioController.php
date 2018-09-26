@@ -101,4 +101,9 @@ class UsuarioController extends Controller
         return Redirect::to('/usuario');
         
     }
+    
+    public function cancel()
+    {
+          return Redirect::to('/usuario');
+    }
 }
